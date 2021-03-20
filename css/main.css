@@ -9,14 +9,14 @@ html {
 }
 
 body {
-  margin: 0 auto;
+  margin: 1em auto;
 }
 
 article {
-  padding: 0 1em;
+  padding: 1em;
 }
 
-h1 {
+article h1 {
   font-style: normal;
   font-size: 1.5rem;
   color: #222;
@@ -27,17 +27,31 @@ header {
   border-bottom: 2px solid #999;
 }
 
-header p {
+article header p {
   font-style: italic;
   font-size: 1.125rem;
   color: #555;
 }
 
-body {
-  padding: 1rem;
+article p {
+  color: #222;
 }
 
-blockquote {
+article ol {
+  color: #222;
+}
+
+blockquote p {
   color: #999;
   font-size: 1.5rem;
+}
+
+.quote {
+  color: #999;
+}
+
+body {
+  margin: 0.05rem;
+  padding-left: 5em;
+  padding-right: 5em;
 }
