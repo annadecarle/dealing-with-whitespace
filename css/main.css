@@ -10,14 +10,13 @@ html {
 
 body {
   margin: 0 auto;
-  border-bottom: 2px solid #999;
+  border-left: 110px solid #222;
+  border-right: 110px solid #222;
 }
 
 article {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border-left: 110px solid #222;
-  border-right: 110px solid #222;
+  padding: 1em;
+  border-bottom: 2px solid #999;
 }
 
 article h1 {
