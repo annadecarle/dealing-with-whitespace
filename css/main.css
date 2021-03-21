@@ -10,12 +10,12 @@ html {
 
 body {
   margin: 0;
-  border-left: 2px solid #222;
-  border-right: 2px solid #222;
+  border-left: 10px solid #222;
+  border-right: 10px solid #222;
 }
 
 article > p:last-child {
-  border-bottom: 2px solid #999;
+  border-bottom: 2px solid #555;
   padding-bottom: 1em;
 }
 
@@ -24,19 +24,21 @@ article h1 {
   font-size: 1.5rem;
   color: #222;
   font-weight: lighter;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 article {
-  padding: 0 1rem;
+  padding: 1rem;
+  margin: 0;
 }
 
 article header {
-  border-bottom: 2px solid #999;
+  border-bottom: 2px solid #555;
 }
 
 article header p {
   margin-top: 0;
+  font-family: "Crimson Text";
   font-style: italic;
   font-size: 1.125rem;
   color: #555;
