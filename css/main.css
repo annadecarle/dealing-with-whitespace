@@ -10,13 +10,14 @@ html {
 
 body {
   margin: 0;
-  border-left: 10px solid #222;
-  border-right: 10px solid #222;
+
+  /* border-left: 10px solid #222;
+  border-right: 10px solid #222; */
 }
 
 article > p:last-child {
-  border-bottom: 2px solid #555;
-  padding-bottom: 1em;
+  border-bottom: 1px solid #555;
+  padding-bottom: 1.3em;
 }
 
 article h1 {
@@ -28,12 +29,14 @@ article h1 {
 }
 
 article {
-  padding: 1rem;
+  padding: 1.3rem;
   margin: 0;
 }
 
 article header {
-  border-bottom: 2px solid #555;
+  border-bottom: 1px solid #555;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
 }
 
 article header p {
@@ -46,6 +49,8 @@ article header p {
 
 article p {
   color: #222;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
 }
 
 article ol {
@@ -53,7 +58,7 @@ article ol {
 }
 
 blockquote {
-  padding: .5em;
+  padding: 1em;
 }
 
 blockquote p {
