@@ -10,17 +10,22 @@ html {
 
 body {
   margin: 0;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: #222;
+
+  /* border-left: 100px solid #222;
+  border-right: 100px solid #222; */
 }
 
 article > p:last-child {
   border-bottom: 2px solid #999;
-  padding-bottom: 1rem;
+  padding-bottom: 1em;
 }
 
 article {
   padding: 1rem;
-  border-left: 110px solid #222;
-  border-right: 110px solid #222;
+  background: #fff;
 }
 
 article h1 {
@@ -51,12 +56,12 @@ article ol {
 }
 
 blockquote {
-  padding: 1em;
+  padding: .5em;
 }
 
 blockquote p {
   color: #999;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
 }
 
 .quote {
