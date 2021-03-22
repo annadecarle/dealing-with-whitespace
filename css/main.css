@@ -29,7 +29,7 @@ article h1 {
 }
 
 article {
-  padding: 1.3rem;
+  padding: 1em;
   margin: 0;
 }
 
@@ -58,11 +58,11 @@ article ol {
 }
 
 blockquote {
-  padding: 1em;
+  padding: .125em;
 }
 
 blockquote p {
-  color: #999;
+  color: #555;
   font-size: 1.125rem;
 }
 
